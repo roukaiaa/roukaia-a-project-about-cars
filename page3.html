@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+        *{font-family: 'Gabarito', sans-serif;}
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          background-color: #8b0000;
+          zoom: 90%;
+          
+        }
+        h1{text-align: center;color: white;}
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 20px;
+        }
+.item img{width: 200px;height: 100px;}
+        .item {
+            text-align: center;
+            width: 500px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #8b0000;
+            box-shadow:inset 0 0 30px #8b0000;
+            transition: transform 0.3s ease-in-out;
+            background-color: white;
+        }
+.item h2{color:#8b0000;}
+.item p{color:black;}
+        .item:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+       
+    </style>
+    <title>Types of cars</title>
+</head>
+<body>
+<h1>Types Of Cars</h1>
+    <div class="container">
+        <div class="item">
+            <h2> Electric Cars: </h2>
+            <img src="1.jpg" >
+            <p>Delve into the realm of electric cars, emphasizing
+                 their environmental and economic efficiency.</p>
+        </div>
+
+        <div class="item">
+            <h2> Smart and Connected Cars: </h2>
+            <img src="2.jpg" >
+            <p>Research technologies enabling communication between cars and 
+                infrastructure to enhance the driving experience.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <h2> Sports and Luxury Cars:</h2>
+            <img src="3.jpg" >
+            <p>Understand performance and luxury components in these categories.</p>
+        </div>
+
+        <div class="item">
+            <h2> Autonomous Driving Cars:  </h2>
+            <img src="4.jpg" >
+            <p>Explore self-driving technologies, analyzing challenges and advantages.</p>
+        </div>
+    </div>
+
+</body>
+</html>

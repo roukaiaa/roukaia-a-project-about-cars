@@ -1,0 +1,97 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+        *{font-family: 'Gabarito', sans-serif;}
+    body {
+      background-color: #8b0000;
+      margin: 0;
+      padding: 0;
+     
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      box-shadow: inset 0 0 20px #8b0000;
+    }
+
+    h1 {
+      color:white;
+    }
+
+    .s6ar {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .column {
+      flex: 0 0 45%;
+      padding: 0px;
+      background-color: #fff;
+     transition: transform 0.3s ease-in-out;
+     width: 250px;
+     height: 300px;
+     border: 1px solid #8b0000;
+            box-shadow:inset 0 0 30px #8b0000;
+    }
+
+    .column:hover {
+      transform: scale(1.2);
+    }
+
+    img {
+      max-width: 100%;
+      height: 50%;
+      border-radius: 10px;
+   width:270px;
+    }
+    h2{color: #8b0000;}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Key Components of Cars</h1>
+
+    <div class="s6ar">
+      <div class="column">
+       <h2>Engine and Power Systems:</h2> <p> Explore engine technologies, 
+            whether internal combustion or electric motors, 
+            and developments in power systems.</p>
+        <img src="c1.jpg" >
+      </div>
+
+      <div class="column">
+        <h2>Vehicle Structure and Materials:</h2><p> Examine structural composition 
+            and the use of lightweigh materials to enhance fuel efficiency 
+            and safety performance.</p>
+        <img src="c2.jpg" >
+      </div>
+    </div>
+
+    <div class="s6ar">
+      <div class="column">
+        <h2>Braking and Suspension Systems: </h2> <p> Scrutinize braking and suspension systems
+         to improve control and safety performance.</p>
+        <img src="c3.jpg" >
+      </div>
+
+      <div class="column">
+        <h2>Electrical Systems and Electronics:</h2><p> Focus on computer systems 
+            and advanced electronics used in modern cars.</p>
+        <img src="c4.jpg" >
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
